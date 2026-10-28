@@ -25,11 +25,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def _need(name):
-    v = os.getenv(name, "").strip()
-    if not v:
-        raise RuntimeError(f"Missing required setting in .env: {name}")
-    return v
+
 
 
 DATABASE_URL = "mongodb+srv://nexacoders2_db_user:dxYh7QOdHvH6OVdd@cluster0.f4qxcbk.mongodb.net/?appName=Cluster0")                       # your own MongoDB for THIS bot
