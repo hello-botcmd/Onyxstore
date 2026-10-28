@@ -38,8 +38,6 @@ DATABASE_URL = "mongodb+srv://nexacoders2_db_user:dxYh7QOdHvH6OVdd@cluster0.f4qx
 
 
 ADMIN_IDS = [8580367479]
-
-DATABASE_URL = "YOUR_MONGODB_CONNECTION_STRING"
 DB_NAME = "reseller_bot"
 
 QC_API_BASE = "https://YOUR-QUICK-CODES-API-URL".rstrip("/")
