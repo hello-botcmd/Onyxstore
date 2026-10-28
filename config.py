@@ -32,11 +32,11 @@ def _need(name):
     return v
 
 
-BOT_TOKEN = _need("BOT_TOKEN")
-ADMIN_IDS = [int(x) for x in _need("ADMIN_IDS").replace(" ", "").split(",") if x]
-DATABASE_URL = _need("DATABASE_URL")                       # your own MongoDB for THIS bot
+BOT_TOKEN = _need("9080776064:AAGXvM4Ou5VLQ9_wcivu2JDrGwovl47RKoY")
+ADMIN_IDS = [int(x) for x in _need("ADMIN_IDS").replace(" ", "8580367479").split(",") if x]
+DATABASE_URL = _need("mongodb+srv://nexacoders2_db_user:dxYh7QOdHvH6OVdd@cluster0.f4qxcbk.mongodb.net/?appName=Cluster0")                       # your own MongoDB for THIS bot
 DB_NAME = os.getenv("DB_NAME", "reseller_bot")
-QC_API_BASE = _need("QC_API_BASE").rstrip("/")             # Quick Codes API address, e.g. https://api.example.com
+QC_API_BASE = _need("").rstrip("/")             # Quick Codes API address, e.g. https://api.example.com
 
-BOT_TITLE = os.getenv("BOT_TITLE", "MULTI SERVICE BOT")   # name shown on the home screen
-SUPPORT_LINK = os.getenv("SUPPORT_LINK", "").strip()      # optional "Contact Support" button on payment problems
+BOT_TITLE = os.getenv("BOT_TITLE", "NFT STACKS STORE")   # name shown on the home screen
+SUPPORT_LINK = os.getenv("SUPPORT_LINK", "https://t.me/nftstacks").strip()      # optional "Contact Support" button on payment problems
